@@ -1,0 +1,250 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Electrónicos",
+      "parent_id": null
+    },
+    {
+      "id": 2,
+      "name": "Computadoras",
+      "parent_id": 1
+    },
+    {
+      "id": 3,
+      "name": "Smartphones",
+      "parent_id": 1
+    },
+    {
+      "id": 4,
+      "name": "Tablets",
+      "parent_id": 1
+    },
+    {
+      "id": 5,
+      "name": "Ropa",
+      "parent_id": null
+    },
+    {
+      "id": 6,
+      "name": "Hombres",
+      "parent_id": 5
+    },
+    {
+      "id": 7,
+      "name": "Mujeres",
+      "parent_id": 5
+    },
+    {
+      "id": 8,
+      "name": "Hogar",
+      "parent_id": null
+    },
+    {
+      "id": 9,
+      "name": "Muebles",
+      "parent_id": 8
+    },
+    {
+      "id": 10,
+      "name": "Electrodomésticos",
+      "parent_id": 8
+    }
+  ],
+  "products": [
+    {
+      "code": "LAP-001",
+      "name": "Laptop Gaming",
+      "description": "Laptop para gaming de alta gama",
+      "price": 1200.0,
+      "stock": 15,
+      "category_id": 2,
+      "created_at": "2025-10-22T19:16:25.322308"
+    },
+    {
+      "code": "LAP-002",
+      "name": "Laptop Oficina",
+      "description": "Laptop para trabajo y estudio",
+      "price": 800.0,
+      "stock": 25,
+      "category_id": 2,
+      "created_at": "2025-10-22T19:16:25.322308"
+    },
+    {
+      "code": "PHN-001",
+      "name": "iPhone 15",
+      "description": "Smartphone Apple última generación",
+      "price": 999.0,
+      "stock": 30,
+      "category_id": 3,
+      "created_at": "2025-10-22T19:16:25.322308"
+    },
+    {
+      "code": "PHN-002",
+      "name": "Samsung Galaxy",
+      "description": "Smartphone Android premium",
+      "price": 850.0,
+      "stock": 20,
+      "category_id": 3,
+      "created_at": "2025-10-22T19:16:25.322308"
+    },
+    {
+      "code": "TAB-001",
+      "name": "iPad Pro",
+      "description": "Tablet profesional Apple",
+      "price": 1100.0,
+      "stock": 12,
+      "category_id": 4,
+      "created_at": "2025-10-22T19:16:25.322308"
+    },
+    {
+      "code": "TAB-002",
+      "name": "Tablet Android",
+      "description": "Tablet Android versátil",
+      "price": 300.0,
+      "stock": 18,
+      "category_id": 4,
+      "created_at": "2025-10-22T19:16:25.322308"
+    },
+    {
+      "code": "CAM-001",
+      "name": "Camisa Casual",
+      "description": "Camisa de algodón para hombre",
+      "price": 45.0,
+      "stock": 50,
+      "category_id": 6,
+      "created_at": "2025-10-22T19:16:25.322308"
+    },
+    {
+      "code": "PAN-001",
+      "name": "Pantalón Jeans",
+      "description": "Jeans clásico para hombre",
+      "price": 60.0,
+      "stock": 40,
+      "category_id": 6,
+      "created_at": "2025-10-22T19:16:25.322308"
+    },
+    {
+      "code": "VES-001",
+      "name": "Vestido Verano",
+      "description": "Vestido ligero para mujer",
+      "price": 55.0,
+      "stock": 35,
+      "category_id": 7,
+      "created_at": "2025-10-22T19:16:25.322308"
+    },
+    {
+      "code": "SOF-001",
+      "name": "Sofá 3 Plazas",
+      "description": "Sofá moderno para sala",
+      "price": 450.0,
+      "stock": 8,
+      "category_id": 9,
+      "created_at": "2025-10-22T19:16:25.322308"
+    },
+    {
+      "code": "MES-001",
+      "name": "Mesa Centro",
+      "description": "Mesa de centro diseño moderno",
+      "price": 120.0,
+      "stock": 15,
+      "category_id": 9,
+      "created_at": "2025-10-22T19:16:25.322308"
+    },
+    {
+      "code": "REF-001",
+      "name": "Refrigerador",
+      "description": "Refrigerador eficiente energía",
+      "price": 700.0,
+      "stock": 10,
+      "category_id": 10,
+      "created_at": "2025-10-22T19:16:25.322308"
+    },
+    {
+      "code": "LAV-001",
+      "name": "Lavadora",
+      "description": "Lavadora automática 15kg",
+      "price": 550.0,
+      "stock": 12,
+      "category_id": 10,
+      "created_at": "2025-10-22T19:16:25.322308"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "customer_name": "Juan Pérez",
+      "items": [
+        {
+          "code": "PHN-001",
+          "qty": 1
+        },
+        {
+          "code": "TAB-002",
+          "qty": 1
+        }
+      ],
+      "status": "DONE",
+      "created_at": "2025-10-22T19:16:25.325432"
+    },
+    {
+      "id": 2,
+      "customer_name": "María García",
+      "items": [
+        {
+          "code": "LAP-001",
+          "qty": 1
+        },
+        {
+          "code": "CAM-001",
+          "qty": 2
+        }
+      ],
+      "status": "PENDING",
+      "created_at": "2025-10-22T19:16:25.325432"
+    },
+    {
+      "id": 3,
+      "customer_name": "Carlos López",
+      "items": [
+        {
+          "code": "REF-001",
+          "qty": 1
+        }
+      ],
+      "status": "PENDING",
+      "created_at": "2025-10-22T19:16:25.325432"
+    }
+  ],
+  "recent_views": [
+    {
+      "identifier": "user_juan",
+      "stack": [
+        "PHN-001",
+        "TAB-002",
+        "LAP-001"
+      ],
+      "updated_at": "2025-10-22T19:16:25.330913"
+    },
+    {
+      "identifier": "user_maria",
+      "stack": [
+        "LAP-001",
+        "CAM-001",
+        "VES-001"
+      ],
+      "updated_at": "2025-10-22T19:16:25.330913"
+    },
+    {
+      "identifier": "user_carlos",
+      "stack": [
+        "REF-001",
+        "LAV-001",
+        "SOF-001"
+      ],
+      "updated_at": "2025-10-22T19:16:25.330913"
+    }
+  ],
+  "next_order_id": 1,
+  "next_category_id": 1
+}
