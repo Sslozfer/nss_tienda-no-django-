@@ -243,6 +243,11 @@
         "SOF-001"
       ],
       "updated_at": "2025-10-22T19:16:25.330913"
+    },
+    {
+      "identifier": "default_user",
+      "stack": [],
+      "updated_at": "2025-11-04T21:38:20.219404"
     }
   ],
   "next_order_id": 1,
