@@ -1,0 +1,10 @@
+# Ignore data file
+store_data.json
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore environment files
+.env
+.venv
