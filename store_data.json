@@ -49,6 +49,11 @@
       "id": 10,
       "name": "Electrodomésticos",
       "parent_id": 8
+    },
+    {
+      "id": 11,
+      "name": "sss",
+      "parent_id": null
     }
   ],
   "products": [
@@ -168,6 +173,15 @@
       "stock": 12,
       "category_id": 10,
       "created_at": "2025-10-22T19:16:25.322308"
+    },
+    {
+      "code": "qwe",
+      "name": "qwe",
+      "description": "",
+      "price": 23.0,
+      "stock": 23,
+      "category_id": null,
+      "created_at": "2025-11-04T23:58:46.773837"
     }
   ],
   "orders": [
@@ -263,5 +277,5 @@
     }
   ],
   "next_order_id": 5,
-  "next_category_id": 11
+  "next_category_id": 12
 }

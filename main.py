@@ -299,6 +299,9 @@ class Store:
 
                         try:
                             price_val = float(price)
+                            if price_val <= 0:
+                                print("El precio debe ser mayor que 0")
+                                continue
                         except ValueError:
                             print("Invalid price")
                             continue

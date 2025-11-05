@@ -4,15 +4,14 @@ import json
 import os
 
 def initialize_sample_data():
-    """Inicializar la base de datos con datos de ejemplo"""
+    """Initialize the database with sample data"""
     
-    # Eliminar archivo existente si existe
+    # Remove existing file if it exists
     if os.path.exists('store_data.json'):
         os.remove('store_data.json')
     
     database = JSONDatabase()
     
-    # Crear categorías
     categories = [
         Category(1, "Electrónicos"),
         Category(2, "Computadoras", 1),
@@ -28,8 +27,7 @@ def initialize_sample_data():
     
     for category in categories:
         database.add_category(category.to_dict())
-    
-    # Crear productos
+
     products = [
         Product("LAP-001", "Laptop Gaming", "Laptop para gaming de alta gama", 1200.00, 15, 2),
         Product("LAP-002", "Laptop Oficina", "Laptop para trabajo y estudio", 800.00, 25, 2),
@@ -49,7 +47,6 @@ def initialize_sample_data():
     for product in products:
         database.add_product(product.to_dict())
     
-    # Crear algunos pedidos
     orders = [
         Order(1, "Juan Pérez", [
             {"code": "PHN-001", "qty": 1},
@@ -67,7 +64,6 @@ def initialize_sample_data():
     for order in orders:
         database.add_order(order.to_dict())
     
-    # Crear algunos historiales de vista
     recent_views = [
         RecentView("user_juan", ["PHN-001", "TAB-002", "LAP-001"]),
         RecentView("user_maria", ["LAP-001", "CAM-001", "VES-001"]),

@@ -3,5 +3,5 @@ from order_queue import OrderQueueService
 from recent_stack import RecentViewManager
 from category_tree import CategoryTreeService
 
-# Este archivo simplemente importa y organiza los servicios
-# Se mantiene para mantener compatibilidad con el código original
+# This file simply imports and organizes the services
+# Kept to maintain compatibility with the original codebase
